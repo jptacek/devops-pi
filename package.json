@@ -1,0 +1,23 @@
+{
+  "name": "devops-pi",
+  "version": "0.8.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jptacek/devops-pi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jptacek/devops-pi/issues"
+  },
+  "homepage": "https://github.com/jptacek/devops-pi#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "winston": "^2.4.1"
+  }
+}
