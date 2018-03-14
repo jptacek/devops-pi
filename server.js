@@ -6,7 +6,7 @@ const os = require("os");
 const app = express();
 const hostname = os.hostname();
 // Constants
-const portDefault = 80;
+const portDefault = 8080;
 var PORT = process.env.PORT || portDefault;
 
 require('./routes')(app);
